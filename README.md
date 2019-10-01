@@ -3,8 +3,9 @@
 #TODOs
 
 progress:
+- [x] install npm
 
 
 todos:
-- [ ] install npm
+
 - [ ] reflect pset 01 functionality (timestamp 9/30/2019)
