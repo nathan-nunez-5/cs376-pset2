@@ -1,0 +1,24 @@
+{
+  "name": "cs376-pset2",
+  "version": "1.0.0",
+  "description": "#TODOs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan-nunez-5/cs376-pset2.git"
+  },
+  "author": "nathan-nunez-5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan-nunez-5/cs376-pset2/issues"
+  },
+  "homepage": "https://github.com/nathan-nunez-5/cs376-pset2#readme",
+  "dependencies": {
+    "cross-fetch": "^3.0.4",
+    "express": "^4.17.1",
+    "passport": "^0.4.0"
+  }
+}
