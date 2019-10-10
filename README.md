@@ -2,6 +2,11 @@
 
 #TODOs
 
+changed from pset1 -> pset2:
+* changed buildUrl()
+* changed api let to server let
+
+
 progress:
 - [x] install npm
 
