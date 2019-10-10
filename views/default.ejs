@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+		<link rel="icon" href="favicon.ico" >
+    <!--
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		-->
+		<link rel="stylesheet" href="assets/styles.css">
+		<script type="text/javascript" src="assets/main.js"></script>
+		<script>
+		getGalleryList()
+		</script>
+	</head>
+	<body>
+		<div id="nav-bar">
+			<div id="gallery-list" class="dropdown">
+	  		<button onclick="showGalleryList()" class="dropbtn">Gallery Select</button>
+	  		<div id="gallery-dropdown" class="dropdown-content">
+	  		</div>
+			</div>
+			<br>
+			<div id="object-search">
+				<form action="/action_page.php">
+					<input type="text" name="search-text"><br>
+					<select name="search-parameter">
+						<option value="0" selected>Select parameter:</option>
+						<option value="object">Object</option>
+						<option value="person">Person</option>
+						<option value="culture">Culture</option>
+						<option value="medium">Medium</option>
+					</select>
+					<select name="search-field">
+						<option value="0">Select field:</option>
+						<option value="object">f1</option>
+					</select>
+					<input type="submit" value="Search">
+				</form>
+			</div>
+		</div>
+		<!--<div id="default-content"> </div>-->
+		<div id="content-title" class="header"> </div>
+		<div id="full-size-image"> </div>
+		<div id="content-list"> </div>
+    <footer></footer>
+	</body>
+</html>

@@ -167,7 +167,7 @@ async function showGalleryContents(id){
 
 
 function buildURL(params, resourceType){
-  let base = server + resourceType
+  let base = server + '/' + resourceType
   let url = new URL(base)
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
   //url.searchParams.append('apikey', apikey)

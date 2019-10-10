@@ -18,17 +18,21 @@ app.get('/', function(request, response){
 })
 
 app.get('/gallery', function(request, response){
-
+  console.log(request)
+  console.log(response)
 })
 
 app.get('/gallery/:galleryid', function(request, response){
-
+  console.log(request)
+  console.log(response)
 })
 
 app.get('/object', function(request, response){
-
+  console.log(request)
+  console.log(response)
 })
 
 app.get('/object/:objectid', function(request, response){
-
+  console.log(request)
+  console.log(response)
 })

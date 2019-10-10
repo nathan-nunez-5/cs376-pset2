@@ -3,8 +3,12 @@
 #TODOs
 
 changed from pset1 -> pset2:
-* changed buildUrl()
-* changed api let to server let
+* changed buildUrl() (main.js)
+  * changes apikey to server
+  * added a '/' to the path
+* changed api let to server let (main.js)
+* changed the paths for main.js and style.css to include assets/ superdirectory (default.ejs)
+
 
 
 progress:
